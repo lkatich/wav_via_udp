@@ -6,7 +6,7 @@ from contextlib import closing
 from threading import Thread
 import logging
 
-SERVER_ADDRESS = ('localhost', 8686)
+SERVER_ADDRESS = ('', 8686)
 logging.basicConfig(level=logging.DEBUG)
 
 
