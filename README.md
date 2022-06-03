@@ -12,13 +12,23 @@ Clone the project.
 
 To run client use:
 
-python3 client.py --host <server_hostname>
+```python3 client.py --host <server_hostname>```
 
 (use 127.0.0.1 if the server is running on the same local machine)
 
+use -ff key to indicate the path to the wav file you want to transfer
 
-Please be aware that for audio recording pyaudio is needed.  
-For audio from file test wav file is added (and will be used by default) 
+```python3 client.py --host <server_hostname> -ff <path_to_file>```
+
+use -fr key to send the 5-seconds record from mic instead of file
+
+```python3 client.py --host <server_hostname> -fr```  
+
+
+For audio from file "test.wav" file will be used by default
+
+
+
 
 To run server use:
 
