@@ -13,7 +13,8 @@ Clone the project.
 To run client use:
 
 python3 client.py --host <server_hostname>
-server_hostname is 127.0.0.1 if the server is running on the same local machine
+
+(use 127.0.0.1 if the server is running on the same local machine)
 
 
 Please be aware that for audio recording pyaudio is needed.  
