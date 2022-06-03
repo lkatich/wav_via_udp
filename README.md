@@ -32,5 +32,5 @@ For audio from file "test.wav" file will be used by default
 
 To run server use:
 
-python3 server.py
+```python3 server.py```
 
